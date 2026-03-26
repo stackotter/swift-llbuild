@@ -11,12 +11,12 @@
         }
       },
       {
-        "package": "swift-tools-support-core",
-        "repositoryURL": "https://github.com/apple/swift-tools-support-core.git",
+        "package": "swift-toolchain-sqlite",
+        "repositoryURL": "https://github.com/swiftlang/swift-toolchain-sqlite",
         "state": {
-          "branch": "main",
-          "revision": "3b6b97d612b56e25d80d0807f5bc38ea08b7bdf3",
-          "version": null
+          "branch": null,
+          "revision": "b45b80b943e88db3cb8ddea798fa3fa9912375ff",
+          "version": "1.0.7"
         }
       }
     ]

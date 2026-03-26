@@ -17,13 +17,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "0.4.3"),
-        .package(url: "https://github.com/apple/swift-tools-support-core.git", .branch("main")),
         .package(path: "../../"),
     ],
     targets: [
         .target(
             name: "llbuildAnalyzeTool",
-            dependencies: ["SwiftToolsSupport-auto", "llbuildAnalysis", "ArgumentParser"],
-            path: "Sources"),
+            dependencies: ["llbuildAnalysis", "ArgumentParser"],
+            path: "Sources"
+        ),
     ]
 )
